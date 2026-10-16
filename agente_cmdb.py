@@ -5,10 +5,10 @@ import json
 from requests.auth import HTTPBasicAuth
 
 # --- 1. DATOS DEL ALUMNO (MODIFICAR AQUÍ) ---
-JIRA_DOMAIN = "tu-dominio"       
+JIRA_DOMAIN = "tu-dominio"
 EMAIL = "tu_correo@ejemplo.com"
 API_TOKEN = "tu_token"
-PROJECT_KEY = "tu_clave"         
+PROJECT_KEY = "tu_clave"
 
 # --- 2. EXTRACCIÓN DE HARDWARE ---
 hostname = platform.node()
